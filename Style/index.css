@@ -1,0 +1,98 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.container span{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bolder;
+}
+.controls{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    
+}
+
+.controls button{
+    border: 2px solid black;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: 20px;
+
+    height: 60px;
+    width: 120px;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(245, 245, 245);
+    border-radius: 30px;
+    height: 300px;
+    width: 500px;
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+}
+
+.stopwatch{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+ul li{
+    color:  rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.lapsdisplay{
+    border: 2px solid rgb(253, 252, 252);
+    border-radius: 20px;
+    width: 500px;
+    display: inline-block;
+}
+
+.lapsdisplay h2{
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    margin-left: 15px;
+    color: rgb(11, 255, 23);
+}
+ul li{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.disflex{
+    display: flex;
+    
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+
+.container h1{
+    font-size: 40px;
+    font-weight: bolder;
+    border: 2px solid rgb(4, 3, 3);
+    display: inline-block;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: aqua;
+}
+
+body{
+    background-color: rgb(16, 12, 12);
+}
